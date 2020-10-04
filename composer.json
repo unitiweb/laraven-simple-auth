@@ -1,0 +1,16 @@
+{
+    "name": "davetorres/token-auth",
+    "description": "A package for Laravel/Lumen to handle standard api token processes",
+    "type": "library",
+    "require": {
+        "php": "^7.3",
+        "ext-json": "*",
+        "firebase/php-jwt": "^5.2",
+        "nesbot/carbon": "^2.40"
+    },
+    "autoload": {
+        "psr-4": {
+            "TokenAuth\\": "src/"
+        }
+    }
+}
